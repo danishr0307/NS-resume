@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+
+.main-content{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+}
+/*-------------left-section---------*/
+.left-section{
+  width: 30%;
+  background-color: #242531;
+  padding: 20px;
+}
+#file {
+  width: 100%;
+}
+
+/*----------profile images----------*/
+.left-content{
+  padding: 1rem;
+}
+.profile-image{
+  display:block;
+  margin: auto;
+  border: 5px white solid;
+  border-radius: 30%;
+  width: 50%;
+}
+.name{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.09rem;
+  color: #fff;
+}
+.designation{
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.07rem;
+  color:aqua;
+}
+ 
+.description{
+  font-size: 0.75rem;
+  text-align: center;
+  /* padding: 1rem; */
+  color: #fff;
+}
+hr.line {
+  margin: 10px 0px;
+  border-top: 1px solid white;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+/*-------social media--------- */
+.social-media {
+  display: flow-root;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.social-media a{
+  padding: 10px;
+  color: #fff;
+}
+.social-media a:hover{
+  color: #4d4d4d;
+}
+.social-links ul li{
+  display: block;
+
+}
+.social-links ul li a{
+ color: #fff;
+ padding: 10px;
+ text-decoration: none;
+ font-size: 13px;
+
+} 
+.social-links ul li a:hover{
+  color: #4d4d4d;
+}
+
+i.fas.size-s{
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+/*-------------skills title----------- */
+h2.skills-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+}
+.skill-name {
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+label{
+  /* padding: 10px; */
+  font-size: 1rem;
+  color: #fff;
+}
+.progress-bar{
+  border: 1px white solid;
+  height: 4px;
+}
+/* .skill-progress{
+  border: 1px white solid;
+  height: 4px;
+} */
+
+
+
+
+/*--------right-section---------*/
+.right-section{
+  width: 70%;
+  padding: 40px 30px 40px 60px;
+  background-color: #f7f7f7;
+}
+
+.right-title {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+p.para{
+line-height: 23px;
+margin-bottom: 15px;
+}
+
+.right-title-edu{
+  font-size: 14px;
+  color: #797a7a;
+}
+
+ @media screen and (max-width: 1199px){
+
+
+}
+
+@media screen and (max-width: 991px){
+
+.left-section {
+    width: 50%;
+}
+.right-section {
+  width: 60%;
+  padding: 30px 10px 30px 30px;
+}
+
+
+}
+  @media screen and (max-width: 767px){
+    .main-content{
+      width: 90%;
+      display: unset;
+    }
+    .max-auto {
+      max-width: 300px;
+      margin: auto;
+  }
+    .left-section {
+      width: 100%;
+  }
+  .right-section {
+    width: 100%;
+  }
+
+  }
+  @media screen and (max-width: 480px){
+
+  }
+  
